@@ -1,0 +1,115 @@
+.todo-list {
+    background-color: #F6F9FC;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #2B2D42;
+    text-align: center;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  button {
+    background-color: #4C80F1;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #2B2D42;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  li:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-wrapper {
+    align-items: center;
+    display: flex;
+  }
+  
+  .actions-wrapper {
+    display: flex;
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    color: #4C80F1;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    color: #2B2D42;
+  }
+  
+  .editing-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .editing-wrapper input[type="text"] {
+    margin-bottom: 10px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  li:nth-child(odd) {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  li:nth-child(even) {
+    animation: fadeIn 0.5s ease-in-out;
+    animation-direction: reverse;
+  }
+  
