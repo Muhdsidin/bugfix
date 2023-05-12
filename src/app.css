@@ -1,6 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Vina Sans', cursive;
+}
 body{
-    height: 100vh;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+    background-image: url("https://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg");
 }

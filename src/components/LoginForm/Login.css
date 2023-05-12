@@ -1,0 +1,43 @@
+form {
+    background-color: rgba(247, 213, 213, 0.4);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 8%;
+  }
+  h2 {
+    text-align: center;
+    opacity: 1;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    opacity: 1;
+  }
+  input[type="email"],
+  input[type="password"] {
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: none;
+  }
+  input[type="checkbox"] {
+    margin-right: 5px;
+    opacity: 1;
+  }
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+  }
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
