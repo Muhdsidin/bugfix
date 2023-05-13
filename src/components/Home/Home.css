@@ -1,0 +1,36 @@
+.Home{
+    width: 96%;
+    height: 100vh;
+    /*background-color: red;*/
+    margin-left: 2%;
+}
+.Home > .for-search-bar{
+    width: 90%;
+   /* background-color: black;*/
+    margin-left: 5%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.Home div input{
+    color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    width: 50%;
+}
+input::placeholder{
+    color: red;
+}
+.for-movie-list{
+    width: 96%;
+    height: 100vh;
+    background-color: red;
+    margin-top: 5%;
+    display: block;
+}
+.for-movie-list img{
+    width: 20%;
+    height: 175px;
+}

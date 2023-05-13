@@ -36,12 +36,12 @@ export function Login() {
   const handleForm=(event)=>{
     event.preventDefault()
     localStorage.setItem(local,JSON.stringify(field))
+    if(localStorage.length === 1){
       Navigate("/")
+    }
   }
 
-  if(localStorage.length === 1){
-    Navigate("/")
-  }
+  
 
   return (
     <form onSubmit={handleForm}>
